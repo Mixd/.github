@@ -1,0 +1,14 @@
+{
+    "name": "Build",
+    "description": "Test for PSR-12 compliance and that NPM can build static assets",
+    "iconName": "paper-airplane",
+    "categories": [
+        "PHP"
+    ],
+    "filePatterns": [
+        "composer.json$",
+        "package.json$",
+        "^Dockerfile",
+        "fractal.config.js$"
+    ]
+}
